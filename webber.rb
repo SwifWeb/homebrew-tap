@@ -11,7 +11,7 @@ class Webber < Formula
 
   depends_on "binaryen"
   depends_on "wasmer"
-  depends_on :xcode => "12.3"
+  depends_on :xcode => "11.4"
 
   def install
     system "swift", "build", "--disable-sandbox", "-c", "release"
