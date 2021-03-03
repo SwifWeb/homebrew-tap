@@ -9,8 +9,8 @@ class Webber < Formula
     sha256 "fbe25682215fcd5b42f4f4cdbd86de046427310c27af19aaaaeeeec69956baec"
   end
   
-  depends_on "npm"
   depends_on "binaryen"
+  depends_on "npm"
   depends_on "wasmer"
   depends_on :xcode => "11.4"
 
