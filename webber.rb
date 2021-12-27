@@ -4,15 +4,15 @@ class Webber < Formula
   head "https://github.com/swifweb/webber.git"
 
   stable do
-    version "0.5.1"
-    url "https://github.com/swifweb/webber.git", tag: "0.5.1", revision: "fd4087cd77160540efedc9af6dbc0577e672f031"
-    sha256 "377a230764ddc6d3c26ebdd252004ce82f2efc459224729b534da51bb69809ce"
+    version "0.7.0"
+    url "https://github.com/swifweb/webber.git", tag: "0.7.0", revision: "a5ef2df9e255a3225edfb09b5bc34313ebe9db45"
+    sha256 "d316c723384f6d8352827b1414770ee90672b3d95b5da6f76e2e999220b7e27a"
   end
   
   depends_on "binaryen"
   depends_on "npm"
   depends_on "wasmer"
-  depends_on :xcode => "11.4"
+  depends_on :xcode => "13.1"
 
   def install
     system "swift", "build", "--disable-sandbox", "-c", "release"
