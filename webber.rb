@@ -4,9 +4,9 @@ class Webber < Formula
   head "https://github.com/swifweb/webber.git"
 
   stable do
-    version "1.3.0"
-    url "https://github.com/swifweb/webber.git", tag: "1.3.0", revision: "31bff75bd71c463eda21836bc92908f7f18f2de4"
-    sha256 "875dcfea5160692d40140e14edf6396e47d4dd786468a36971d2db5ed65c304e"
+    version "1.4.0"
+    url "https://github.com/swifweb/webber.git", tag: "1.4.0", revision: "dab12ec19039bc2d68779c0c7a845f23e1b136b6"
+    sha256 "4e18e3f0171c96779a429bd88ebfe151016cb99e464c3695bd8da98c907814b4"
   end
   
   depends_on "binaryen"
